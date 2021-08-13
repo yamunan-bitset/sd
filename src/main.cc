@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-extern void cstyle_list(); // cstyle.c
+extern "C" void cstyle_list(); // cstyle.c
 
 int main(int argc, char** argv)
 {
